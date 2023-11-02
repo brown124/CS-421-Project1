@@ -1,0 +1,114 @@
+body {
+	background-color: oldlace;
+	margin-left: auto;
+	margin-right: auto;
+	position:absolute;
+	margin-left:190px;
+	margin-right:190px;
+	font-family: Adamina;
+}
+
+h1 {
+    position: relative;
+	text-align: center;
+	display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2{
+	margin-left: inherit;
+	padding-top: 15px;
+}
+
+h3{
+	margin-left: inherit;
+	padding-top: 15px;
+}
+
+h4{
+	margin-left: inherit;
+	padding-top: 15px;
+}
+
+nav ul li {
+	position: relative;
+	display: inline;
+	padding-inline: inherit;
+	color: black;
+	font-size: large;
+	font-family:'Goudy Bookletter 1911', Arial;
+	text-decoration: underline;
+	font-weight:bold;
+}
+
+a {
+  text-decoration: underline;
+  color: #320c5b;
+}
+
+.navbar {
+	background-color: #f0a896ba;
+	overflow: hidden;
+	width: 1050px;
+	margin-left: 190px;
+	
+}
+
+
+body > p:nth-child(21) {
+	text-align: center;
+	font-weight: 600;
+}
+
+
+
+header{
+	margin-left:auto;
+}
+
+figure{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	position: relative;
+	width: fit-content;
+}
+
+p{
+	margin: inherit
+}
+
+ul:not(body > header > nav > ul){
+    margin-left:inherit;
+    list-style-position: inside;
+}
+
+ol {
+    margin-left: inherit;
+    list-style-position: inside;
+}
+
+.readbox {
+	border: 3px solid #ff0707b3;
+	padding: 10px 5px;
+	text-align: center;
+	font-weight: bold;
+	width: 300px;
+	display: block;
+	top: 50%;
+	left: 40%;
+	position: relative;
+}
+
+.bolder {
+	font-weight: bold;
+}
+
+.italics {
+	font-style: italic;
+}
